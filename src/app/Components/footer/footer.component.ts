@@ -13,7 +13,7 @@ export class FooterComponent implements OnInit {
   ngOnInit(): void {
   }
   public uiClickYouTube(): void {
-    window.open('https://www.youtube.com/c/SaiJyotiVlogs', '_blank');
+    // window.open('https://www.youtube.com/c/SaiJyotiVlogs', '_blank');
   }
   public uiContactUs(): void {
     this.router.navigate(['/contactDetails'])
