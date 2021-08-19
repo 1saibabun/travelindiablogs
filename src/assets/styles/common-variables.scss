@@ -1,0 +1,279 @@
+$primary_font_family :"montserrat-regular";
+$secondary_font_family :"montserrat-medium";
+$semibold_font_family :"montserrat-semibold";
+$bold_font_family :"montserrat-bold";
+$light_font_family:"montserrat-light";
+
+/* color variables */
+$description_color:  #6D6E71;
+$poc_border_color: #c3c3c3;
+$bell_icon_color: #868686;
+$primary_color_code:#222328;
+$default_color:#6d6e71;
+$desc_secondary_color: #727580;
+$footer_background: #e9ecef;
+$primary_button_color:#C10E21;
+$primary_button_hover_color:#910b19;
+$primary_button_disabled_color:#f39fa8;
+$black_color: #000;
+$link_color: #B73131;
+$active_deactive_link: #BF2121;
+$secondary_button_color:#ffffff;
+$secondary_button_hover_color:#e11127;
+$breadcrump_prev_color:#737373;
+$select_background_color:#F8F8F8;
+$cal_icon_background_color:#EDEDED;
+$validation_color:#C10E21;
+$sort_grey_color:#C3C3C3;
+$info_icon_color:#5F5F5F;
+$light_yellow:#F6F1E4;
+$heartColor: #B0282A;
+$multi_select_close_icon_hover_color:#D0021B;
+$selected_pane_option:#F3F3F3;
+$plain_pane_color:#FCFCFC;
+$mobile_selected_pane_text:#010101;
+$mobile_selected_pane_color:#F1F1F1;
+$withdraw_enrollment_color:#767676;
+$enrolment_status_div_color: #EBEBEB;
+$black_shade: #002228;
+$image_date: #0D0606;
+$image_time: #D1D1D1;
+$outer_border: 0.0625rem solid #cccccc;
+$box_border: 0.0625rem solid #C3C3C3;
+$pagination_padding: 0.3125rem 0.625rem 0.3125rem 0.625rem;
+$arrow_green_color:#0D7711;
+$arrow_grey_color:#B2B2B2;
+$success_msg_green:#3B763D;
+$info_msg_color:#31708F;
+$pagination_border_color: #dee2e6;
+$message_unread_backgroung_color: #F6F6F6;
+$message_unread_dot_color: #406ACC;
+$message_read_dot_color: #AEAEAE;
+$csr_color_code: #4AAB80;
+//rounded border for image
+$rounded_border:0.0625rem solid #B5B5B5; //1px
+$warning_color: #8A6D3A;
+$multi_select_ng_value_color:#f4f4f4;
+$ng_select_background: #ffffff; //#d4e9f1;
+$instructor_bio_desc_color: #9B9B9B;
+$lighter_jet_black: #262626;
+$dark_border_color: #5A5757;
+$blob_background_color: #D5D5D5;
+$discipline_desc_color: #707070;
+$add-on-blob-text-color: #383838;
+$appended_input_border: #80bdff;
+$background_color_1: #dddddd;
+$border_color_1: #ced4da;
+$light_grey_background_panel: #F7F7F7;
+$grey_color: #707171;
+$grey_italic_text: #777777;
+$active_blue: #117DB5;
+$light_black: #626262;
+$blue_border: #31B8C9;
+$dark_blue: #384784;
+$light_red: #F6EFE3;
+$pink: #F7E0E2;
+$public_site_search_background_panel: #FAFAFA;
+$brown_icons: #4F4F4F;
+$tooltip_border: #D9D9D9;
+$disabled_dropdown_color: #E0E0E0;
+$disabled_text_color:#616161;
+/* Role Colors */
+$student_color: #000000;
+$tcc_color: #157E8A;
+$instructor_color: #384784;
+$csr_color: #4AAB80;
+$ecc_color: #C10E21;
+$message_notification_seperator: #E4E4E4;
+/* pixel variables */
+$minus_four_point_five_six_two_five: -4.5625rem;
+$minus_three_rem: -3rem;
+$minus_fourty_one_px: -2.5625rem;
+$minus_thirty_two_px: -2rem;    //-32px
+$minus_one_point_seven_five_rem: -1.75rem;
+$minus_one_point_five_rem: -1.5rem;
+$minus_one_point_three_rem: -1.3rem;
+$minus_15_px:-0.9375rem; //-15px
+$minus_seven_px:-0.4375rem; //-7px
+$minus_point_seven_five_px:-0.75rem;
+$minus_eleven_six_eight_px:-0.73rem;
+$minus_point_seven_rem: -0.7rem;
+$minus_point_five_rem: -0.5rem;
+$minus_six_point_four_rem: -0.4rem;
+$minus_four_px:-0.25rem;
+$minus_five_px:-0.3125rem;
+$minus_two_px:-0.125rem;
+$minus_one_pixel: -0.0625rem;
+$minus_three_px:-0.1875rem;
+$minus_nine_px:-0.5625rem;
+$minus_fourteen_px:-0.875rem;
+$minus_thirty_one_px: -1.9375rem;
+$minus_six_px: -0.375rem;
+$minus_ten_px: -0.625rem;
+$minus_fourty_four_px: -2.75rem;
+$minus_twenty_six_px: -1.625rem;
+
+$no_pixel:0px;
+$twelve_hundred_px: 75rem;
+$zero_point_five_px: 0.03125rem;
+$font_1:0.0625rem; // 1px
+$point_default_font_size: 0.1rem;
+$point_eight_rem: 0.8rem;
+$two_pixels: 0.125rem;
+$three_px:0.1875rem;
+$four_pixels: 0.25rem;
+$five_px: 0.3125rem;
+$six_pixels: 0.375rem;
+$point_four_rem:0.4rem;
+$seven_px:0.4375rem;
+$fliter_spacing:0.4687rem;
+$seven_point_five: 0.4688rem; // 7.5px
+$point_five_rem:0.5rem;
+$nine_px:0.5625rem;
+$font_10:0.625rem; // 10px
+$eleven_px:0.6875rem;
+$font_12:0.75rem; // 12px
+$thirteen_px: 0.8125rem;
+$point_eight_six:0.86rem;
+$desc_font_size: 0.875rem; // 14px
+$point_nine_rem: 0.9rem;
+$arrow_wrapper_margin_top:0.90625rem;
+$fifteen_pixels:0.9375rem; // 15px
+$default_font_size:1rem; // 16px
+$seventeen_px:1.0625rem; // 17px
+$button_font_size:1.125rem; // 18px
+$eighteen_point_four_px: 1.15rem;
+$twenty_px:1.25rem; // 20px
+$font_19:1.18754rem; // 19px
+$ng_select_line_height: 1.275rem;
+$twenty_one_pixels: 1.3125rem;
+$default_inline_height:1.375rem; // 22px
+$twenty_three_pixels: 1.4375rem;
+$twenty_four:1.5rem;
+$font_25:1.5625rem;
+$twenty_six_px:1.625rem;
+$twenty_seven_pixels: 1.6875rem;
+$one_point_seven_five:1.75rem;
+$one_point_eight_rem: 1.8rem;
+$twenty_nine_px:1.8125rem;
+$thirty_pixels:1.875rem;
+$thirty_one_px: 1.938rem;
+$two_rem: 2rem;
+$thirty_three_px: 2.0625rem; // 33px
+$thirty_four_px: 2.125rem;
+$thirty_five_px: 2.1875rem;
+$font_36 : 2.25rem; // 36px
+$fourty_two_px: 2.625rem;
+$thirty_seven_px: 2.31rem;
+$thirty_eight_px: 2.36rem;
+$two_point_four_rem: 2.4rem;
+$thirty_nine_px: 2.4375rem;
+$two_decimal_five_rem: 2.5rem; // 40px
+$fourty_three: 2.6875rem; //43px
+$two_point_seven: 2.7rem;
+$two_point_seven_five: 2.75rem;
+$fourty_five_px: 2.8125rem;
+$three_rem:3rem;
+$fifty_px:3.125rem; //50px
+$fifty_one_px: 3.1875rem;
+$fifty_two_px:3.25rem;
+$fifty_three_px: 3.3125rem; //  53px
+$fifty_five_px:3.4375rem;
+$fifty_six_px: 3.5rem;
+$fifty_eight_px:3.625rem;
+$modal_body_box_size_small:3.75rem;
+$sixty_two_pixels: 3.875rem;    //  62px
+$sixty_three_px:3.9375rem;
+$sixty_seven_point_five_px: 3.970588235294118rem;
+$modal_body_box_size_small:3.989rem;
+$sixty_seven_px: 4.1875rem;
+$stickyHeaderHeight: 4.25rem;
+$seventy_px:4.375rem;
+$seventy_five_pixels: 4.6875rem;
+$five_rem:5rem;
+$eighty_one_px:5.0625rem; // 81px
+$eighty_two_px:5.125rem; // 82px
+$eighty_five_px:5.3125rem; // 85px
+$five_point_five_rem:5.5rem;
+$ninty_pixels: 5.625rem; // 90px
+$ninty_three_px: 5.8125rem; //93px
+$six_rem: 6rem; // 96px
+$hundred_pixels: 6.25rem;
+$hundred_and_five_px: 6.5625rem;    //  105px
+$hundred_ten_px: 6.875rem;  //  110px
+$hundred_twelve_pixels: 7rem; // 112px
+$hundred_fifteen_px: 7.1875rem; //  115px
+$seven_decimal_four_rem: 7.4rem; // 118.4px
+$one_twenty_px:7.5rem;
+$modal_body_box_size:7.625rem;
+$hundred_twenty_six_px: 7.875rem;
+$one_twenty_eight_px:8rem;
+$one_twenty_nine_px: 8.0625rem;
+$one_thirty_two_pixels: 8.25rem;
+$one_thirty_six_px: 8.5rem;
+$one_thirty_nine_px: 8.6875rem;
+$one_fourty_px: 8.75rem;
+$one_fifty_two_pixels: 9.5rem; // 152px
+$nine_point_eight_seven_five_rem: 9.875rem; //  158px
+$nine_point_nine_three_seven_five: 9.9375rem; // 159px
+$one_sixty_px: 10rem; // 160px
+$one_seventy_pixels: 10.625rem;
+$eleven_rem: 11rem;
+$eleven_decimal_five_rem: 11.5rem;
+$one_eighty_five_px: 11.5625rem;
+$one_eighty_seven_px: 11.688rem;
+$one_ninty_px: 11.875rem;
+$one_ninety_two_px: 12rem; // 192px
+$one_nine_three_px:12.0625rem;
+$two_hundred_px: 12.5rem;
+$twelve_point_five_six_two_five: 12.5625rem;
+$twelve_point_nine_three_seven_five: 12.9375rem; // 207px
+$two_hundred_fifteen_pixels: 13.4375rem; // 215px
+$two_hundred_seventeen_point_five_px: 13.59375; // 217.5px
+$thirteen_point_eighty_five_rem: 13.85rem;
+$two_hundred_twenty_two_px: 13.875rem;
+$two_hundred_twenty_eight_px: 14.25rem; // 228px
+$two_hundered_twenty_nine_px: 14.3125rem; // 229px
+$fourteen_point_five: 14.5rem;
+$two_thirty_eight_px: 14.875rem;    // 238px
+$two_forty_two_px: 15.125rem; // 242px
+$fifteen_point_two_fourty_nine: 15.249rem;  //  243.984px
+$two_fifty_six_px: 16rem;    // 256px
+$two_sixty_px: 16.25rem;    //  260px
+$three_seven_six_px: 23.5rem;    // 376px
+$thirty_point_five: 30.5rem;
+$thirty_point_six_two_five: 30.625rem;  //490px
+$six_eighty_four_pixels: 42.75rem;  // 684px
+$seven_twenty_pixels: 45rem;    //  720px
+$three_fifty_pixels: 21.875rem;
+$one_thirty_pixels: 8.125rem;
+$seventy_four_pixels: 4.625rem;
+$default_redius:8px !important;
+$seventy_six_px: 4.75rem;
+$four_rem: 4rem;
+$five_px: 0.313rem;
+$point_nine_three: 0.938rem;
+$grey: #acacac;
+$green: #44770f;
+$one_pt_fifty_six: 1.56rem;
+$one_sixty_five_px: 10.3125rem; // 165px
+$one_sixty_four_px:10.25rem; // 164px
+$sixty_seven_pt_five_rem: 67.5rem;  // 1080px
+$nine_hundred_px: 56.25rem; //  900px
+$ninteen_rem: 19rem;    //  304px
+$three_fourty_nine_px: 21.8125rem;  //  349px
+$three_fifty_px: 21.875rem;    //  350px
+$twenty_two_point_three_rem: 22.3rem;   //  356.8px
+$twenty_two_point_three_five_rem: 22.35rem;   //  357.6px
+$eighteen_point_six_rem: 18.6rem;   //  297.6px
+$one_point_six_rem: 1.6rem; //  25.6px
+$four_fifty_px: 28.125rem;  //  450px
+$five_seventy_five_px: 35.9375rem;  //  575px
+$five_seventy_six_px: 36rem;    //  576px
+$seven_sixty_seven_px: 47.9375rem;  //  767px
+$eighteen_point_three_five_px: 8.35rem; //  133.6px
+$three_eighty_px: 23.75rem; //  380px
+$seven_sixty_eight_px: 48rem;   //  768px
+$twenty_rem: 20rem; //  320px
+$twenty_point_two_seven_five_rem: 20.275rem;
+$twenty_four_rem: 24rem;

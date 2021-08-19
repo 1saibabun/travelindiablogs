@@ -1,0 +1,175 @@
+@import 'common-variables.scss';
+$foldable-mobile-screen-end: 319px;
+$screen-mobile-start: 320px;
+$small-mobile-end: 399px;
+$screen-mobile-end: 480px;
+$screen-mobile-landscape-start: 481px;
+$screen-mobile-landscape-end: 767px;
+$screen-tablet-start: 768px;
+$screen-tablet-end: 1023px;
+$screen-desktop :1024px;
+$one_one_nine_nine_px:1199px;
+//mobile potrait 320 to 480
+@mixin mobilepotrait {
+    @media (min-width: #{$screen-mobile-start}) and (max-width: #{$screen-mobile-end}) {
+        @content;
+    }
+}
+
+// mobile landscape 481 to 767
+@mixin mobileLandscape {
+    @media (min-width: #{$screen-mobile-landscape-start}) and (max-width: #{$screen-mobile-landscape-end}) {
+        @content;
+    }
+}
+
+//mobile potrait and landscape 320 to 767
+@mixin mobilepotraitandLandscape {
+    @media (min-width: #{$screen-mobile-start}) and (max-width: #{$screen-mobile-landscape-end}) {
+        @content;
+    }
+}
+
+//tablet 768 to 1023
+@mixin tablet {
+    @media (min-width: #{$screen-tablet-start}) and (max-width: #{$screen-tablet-end}) {
+        @content;
+    }
+}
+
+//tablet landscape 768 to 1024
+@mixin tabletLandscape {
+    @media only screen and (min-width: #{$screen-tablet-start}) and (max-width: #{$screen-desktop}) 
+    and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+        @content;
+  }
+}
+
+//desktop 1024 onwords
+@mixin desktop {
+    @media only screen and (min-width: #{$screen-desktop}) {
+        @content;
+    }
+}
+
+// foldable mobile upto 319px
+@mixin foldableMobile {
+    @media (max-width: #{$foldable-mobile-screen-end}) {
+        @content;
+    }
+}
+
+// small mobile phones upto 399px
+
+// foldable mobile upto 319px
+@mixin smallMobile {
+    @media (max-width: #{$small-mobile-end}) {
+        @content;
+    }
+}
+
+
+@mixin infopage {
+}
+
+@mixin addonInput {
+}
+
+@mixin mobileGrid {
+}
+@mixin Grid {
+}
+@mixin tabletSortByClass {
+}
+@mixin mobileAndTablat {
+}
+
+@include mobilepotrait {
+}
+
+@include mobileLandscape {
+}
+
+@include mobilepotraitandLandscape {
+    @include mobileAndTablat;
+    body {
+        font-size: $desc_font_size;
+        font-family: $primary_font_family;
+        color: $default_color;
+        position: relative;
+        line-height:normal;
+    }
+}
+
+@include tablet {
+    @include mobileAndTablat;
+    @include infopage;
+    @include Grid;
+    @include mobileGrid;
+    body {
+        font-size: $default_font_size !important;
+        font-family: $primary_font_family !important;
+        color: $default_color !important;
+        position: relative !important;
+    }
+}
+
+
+/*----MS Edge Browser CSS Start----*/
+
+@supports (-ms-ime-align:auto){
+}
+
+
+/* IE version 10 and above */
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+}
+@include foldableMobile() {
+    body {
+        padding: $no_pixel $no_pixel $no_pixel $point_eight_rem;
+        width: fit-content !important;
+    }
+}
+@include tabletLandscape {
+    @include tabletSortByClass();
+}
+
+
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    @include tabletSortByClass();
+}
+
+/* Portrait */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    @include tabletSortByClass();
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    @include tabletSortByClass();
+}
+
+@include smallMobile {
+    /* for button top margin in small screens */
+    .xs-mt-2 {
+        margin-top: $point_five_rem;
+    }
+    .xs-mt-3 {
+        margin-top: $default_font_size;
+    }
+}

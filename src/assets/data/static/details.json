@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Air Tickets",
+        "description": "With supporting text below as a natural lead-in to additional content",
+        "url": "https://www.makemytrip.com/flights"
+    },
+    {
+        "id": 2,
+        "title": "Summer Tour",
+        "description": "With supporting text below as a natural lead-in to additional content",
+        "url": "https://ootytourism.co.in/"
+    },
+    {
+        "id": 3,
+        "title": "Adventure Tour",
+        "description": "With supporting text below as a natural lead-in to additional content",
+        "url": "https://www.keralatourism.org/"
+    }
+]

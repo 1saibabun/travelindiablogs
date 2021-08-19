@@ -1,0 +1,107 @@
+{
+    "status": 200,
+    "error": {},
+    "data" : [              
+                {
+                    "name": "Jan 2019 - Mar 2019",
+                    "fromDate": 1546300800000,
+                    "toDate": 1554076740000
+                },
+                {
+                    "name": "Apr 2019 - June 2019",
+                    "fromDate": 1554076800000,
+                    "toDate": 1561939140000
+                },
+                {
+                    "name": "July 2019 - Sept 2019",
+                    "fromDate": 1561939200000,
+                    "toDate": 1569887940000
+                },
+                {
+                    "name": "Oct 2019 - Dec 2019",
+                    "fromDate": 1569888000000,
+                    "toDate": 1577836740000
+                },
+                {
+                    "name": "Jan 2020 - Mar 2020",
+                    "fromDate": 1577836800000,
+                    "toDate": 1585699140000
+                },
+                {
+                    "name": "Apr 2020 - June 2020",
+                    "fromDate": 1585699200000,
+                    "toDate": 1593561540000
+                },
+                {
+                    "name": "July 2020 - Sept 2020",
+                    "fromDate": 1593561600000,
+                    "toDate": 1601510340000
+                },
+                {
+                    "name": "Oct 2020 - Dec 2020",
+                    "fromDate": 1601510400000,
+                    "toDate": 1609459140000
+                },
+                {
+                    "name": "Jan 2021 - Mar 2021",
+                    "fromDate": 1609459200000,
+                    "toDate": 1617235140000
+                }, 
+                {
+                    "name": "Apr 2021 - June 2021",
+                    "fromDate": 1617235200000,
+                    "toDate": 1625097540000
+                },
+                {
+                    "name": "July 2021 - Sept 2021",
+                    "fromDate": 1625097600000,
+                    "toDate": 1633046340000
+                },
+                {
+                    "name": "Oct 2021 - Dec 2021",
+                    "fromDate": 1633046400000,
+                    "toDate": 1640995140000
+                },
+                {
+                    "name": "Jan 2022 - Mar 2022",
+                    "fromDate": 1640995200000,
+                    "toDate": 1648771140000
+                },
+                {
+                    "name": "Apr 2022 - June 2022",
+                    "fromDate": 1648771200000,
+                    "toDate": 1656633540000
+                },
+                {
+                    "name": "July 2022 - Sept 2022",
+                    "fromDate": 1656633600000,
+                    "toDate": 1664582340000
+                },
+                {
+                    "name": "Oct 2022 - Dec 2022",
+                    "fromDate": 1664582400000,
+                    "toDate": 1672531140000
+                },
+                {
+                    "name": "Jan 2023 - Mar 2023",
+                    "fromDate": 1672531200000,
+                    "toDate": 1680307140000
+                },          
+                {
+                    "name": "Apr 2023 - June 2023",
+                    "fromDate": 1680307200000,
+                    "toDate": 1688169540000
+                },              
+                {
+                    "name": "July 2023 - Sept 2023",
+                    "fromDate": 1688169600000,
+                    "toDate": 1696118340000
+                },               
+               {
+                    "name": "Oct 2023 - Dec 2023",
+                    "fromDate": 1696118400000,
+                    "toDate": 1704067140000
+                }
+                
+    ]
+}

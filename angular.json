@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "Darshan": {
@@ -28,9 +28,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/styles/common-styles.scss",
+              "src/assets/styles/fonts.scss",
+              "src/assets/styles/common-media-queries.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -51,13 +56,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "2mb",
-                  "maximumError": "5mb"
+                  "maximumWarning": "6mb",
+                  "maximumError": "7mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "6kb",
-                  "maximumError": "10kb"
+                  "maximumWarning": "1mb",
+                  "maximumError": "1mb"
                 }
               ]
             }
@@ -123,6 +128,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Darshan"
+    }
+  },
+  "defaultProject": "Darshan",
+  "cli": {
+    "analytics": "7453a396-bd99-49c9-bae2-bc789fef7282"
+  }
 }

@@ -1,0 +1,65 @@
+[{
+        "code": "CR",
+        "icon": "cr.svg"
+    },
+    {
+        "code": "NON_CLINICAL_STAFF",
+        "icon": "nc.svg"
+    },
+    {
+        "code": "GENERAL_COMMUNITY",
+        "icon": "gc.svg"
+    },
+    {
+        "code": "HEALTHCARE_PROFESSIONALS",
+        "icon": "gc.svg"
+    },
+    {
+        "code": "INSTRUCTORS",
+        "icon": "gc.svg"
+    },
+    {
+        "code": "SCHOOLS",
+        "icon": "gc.svg"
+    },
+    {
+        "code": "NON_HEALTHCARE_PROFESSIONALS",
+        "icon": "gc.svg"
+    },
+    {
+        "code": "NON_CLINICAL",
+        "icon": "gc.svg"
+    },
+    {
+        "code": "GENERAL_PUBLIC",
+        "icon": "gc.svg"
+    },
+    {
+        "code": "FIRST_RESPONDERS",
+        "icon": "gc.svg"
+    },
+    {
+        "code": "OTHER",
+        "icon": "gc.svg"
+    },
+    {
+        "code": "CECME",
+        "icon": "gc.svg"
+    },
+    {
+        "code": "FACULTY_REQUIRED",
+        "icon": "gc.svg"
+    },
+    {
+        "code": "ONLINE",
+        "icon": "gc.svg"
+    },
+    {
+        "code": "CLASSROOM",
+        "icon": "gc.svg"
+    },
+    {
+        "code": "BLENDED",
+        "icon": "gc.svg"
+    }
+]
