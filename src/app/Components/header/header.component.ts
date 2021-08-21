@@ -13,6 +13,6 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
   public uiContactUs(): void {
-    this.router.navigate(['/contactDetails'])
+    this.router.navigate(['/contactDetails']);
   }
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { UtilService } from 'src/app/services/util.service';
 
 @Component({
   selector: 'app-footer',
@@ -8,14 +9,16 @@ import { Router } from '@angular/router';
 })
 export class FooterComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(public router: Router, public utilService: UtilService) { }
 
   ngOnInit(): void {
   }
   public uiClickYouTube(): void {
-    // window.open('https://www.youtube.com/c/SaiJyotiVlogs', '_blank');
+    this.utilService.scrollToTop();
+    window.open('https://www.youtube.com/c/SaiJyotiVlogs', '_blank');
   }
   public uiContactUs(): void {
-    this.router.navigate(['/contactDetails'])
+    this.utilService.scrollToTop();
+    this.router.navigate(['../contactDetails']);
   }
 }

@@ -11,6 +11,8 @@ import { CommonHttpServiceService } from './services/common-http-service.service
 import { HttpClientModule } from '@angular/common/http';
 import { StateDetailsComponent } from './Components/state-details/state-details.component';
 import { ContactInfoComponent } from './Components/contact-info/contact-info.component';
+import { UtilService } from './services/util.service';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -25,9 +27,9 @@ import { ContactInfoComponent } from './Components/contact-info/contact-info.com
     CommonModule,
     HttpClientModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
-  providers: [CommonHttpServiceService],
+  providers: [CommonHttpServiceService, UtilService, {provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent],  
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
