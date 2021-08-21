@@ -1,12 +1,30 @@
 <main role="main">
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1 class="display-3">Travel the World!</h1>
-        <p>Wherever you go , go with all your heart.</p>
-        <button class="button" href="#" role="button"><span>Learn more</span> </button>
-      </div>
-    </div>
+    <ngb-carousel>
+      <ng-template ngbSlide>
+        <div class="wrapper">
+          <img src="../../../assets//images/img1.jpg" alt="first slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Tamil Nadu Tourism</h3>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="wrapper">
+          <img src="../../../assets//images/img2.jpg" alt="second slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Odisha Tourism </h3>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="wrapper">
+          <img src="../../../assets//images/img3.jpg"  alt="third slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Karnataka Tourism</h3>
+        </div>
+      </ng-template>
+    </ngb-carousel>
         <!-- Details section -->
         <section>
             <div class="container" id="what-we-do">
@@ -40,6 +58,6 @@
 <br>
 </div> 
 <hr>
-<h1 class="text-center">Feedbacks</h1>
-<hr>
+<!-- <h1 class="text-center">Feedbacks</h1>
+<hr> -->
 </main>

@@ -13,6 +13,7 @@ import { StateDetailsComponent } from './Components/state-details/state-details.
 import { ContactInfoComponent } from './Components/contact-info/contact-info.component';
 import { UtilService } from './services/util.service';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     HttpClientModule,
     BrowserModule,
     AppRoutingModule,
+    NgbModule
   ],
   providers: [CommonHttpServiceService, UtilService, {provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent],  

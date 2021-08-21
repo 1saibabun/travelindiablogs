@@ -13,6 +13,11 @@
 .mainLogo {
   width: 25px;
 }
+ngb-carousel .carousel-inner {
+  .sr-only {
+    display: none !important;
+  }
+}
 
 /**********************
 /***** Services *******
