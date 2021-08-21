@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Chilika Lake",
+        "description": "With supporting text below as a natural lead-in to additional content",
+        "img": "../../../assets/images/chilikalake.jpg",
+        "url": "https://odishatourism.gov.in/"
+    },
+    {
+        "id": 2,
+        "title": "Chandipur",
+        "description": "With supporting text below as a natural lead-in to additional content",
+        "img": "../../../assets/images/chandipur.jpg",
+        "url": "https://www.karnatakatourism.org/"
+    },
+    {
+        "id": 3,
+        "title": "Nandankanan",
+        "description": "With supporting text below as a natural lead-in to additional content",
+        "img": "../../../assets/images/nandankanan.jpg",
+        "url": "http://www.tamilnadutourism.org/"
+    },
+    {
+        "id": 4,
+        "title": "Berhampur",
+        "description": "With supporting text below as a natural lead-in to additional content",
+        "img": "../../../assets/images/berhampur.jpg",
+        "url": "https://odishatourism.gov.in/"
+    },
+    {
+        "id": 5,
+        "title": "Mukteswar Temple",
+        "description": "With supporting text below as a natural lead-in to additional content",
+        "img": "../../../assets/images/mukteswar.jpg",
+        "url": "https://www.karnatakatourism.org/"
+    },
+    {
+        "id": 6,
+        "title": "Chilika",
+        "description": "With supporting text below as a natural lead-in to additional content",
+        "img": "../../../assets/images/chilika.jpg",
+        "url": "http://www.tamilnadutourism.org/"
+    }
+]

@@ -1,0 +1,12 @@
+<div class="container">
+    <h2 class="text-center">Gallery</h2>
+      <div class="row">
+        <div class=" card col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4" *ngFor="let image of imageDetails">
+            <div class="card-body">
+                <a href=javascript:void(0);><img src = {{image.img}} height="200px" width="100%"></a>
+                <h5 class="card-title">{{image.title}}</h5>
+                <P>{{image.description}}</P>
+            </div>          
+        </div>
+      </div>
+</div>

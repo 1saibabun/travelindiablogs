@@ -14,6 +14,7 @@ import { ContactInfoComponent } from './Components/contact-info/contact-info.com
 import { UtilService } from './services/util.service';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { GalleryComponent } from './Components/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     FooterComponent,
     HomeComponent,
     StateDetailsComponent,
-    ContactInfoComponent
+    ContactInfoComponent,
+    GalleryComponent
   ],
   imports: [
     CommonModule,

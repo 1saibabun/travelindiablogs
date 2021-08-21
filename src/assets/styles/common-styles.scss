@@ -13,11 +13,26 @@
 .mainLogo {
   width: 25px;
 }
-ngb-carousel .carousel-inner {
-  .sr-only {
-    display: none !important;
+ngb-carousel {
+  .carousel-control-prev {
+    left: 25px !important;
+    .carousel-control-prev-icon {
+      display: none;
+    }
   }
+  .carousel-control-next {
+    right: 25px !important;
+    .carousel-control-next-icon {
+      display: none;
+    }
+  }
+  .carousel-inner {
+    .sr-only {
+      display: none !important;
+    }
 }
+}
+  
 
 /**********************
 /***** Services *******
