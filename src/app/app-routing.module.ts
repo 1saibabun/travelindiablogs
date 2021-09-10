@@ -8,7 +8,7 @@ import { StateDetailsComponent } from './Components/state-details/state-details.
 
 const routes: Routes = [
   {
-    path:'',
+    path:'home',
     component: HomeComponent
   },
   {
@@ -23,6 +23,7 @@ const routes: Routes = [
     path:'gallery',
     component: GalleryComponent
   },
+  {path: '', redirectTo: '/home', pathMatch: 'full'}
 ];
 
 @NgModule({

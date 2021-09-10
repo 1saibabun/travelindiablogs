@@ -12,7 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { StateDetailsComponent } from './Components/state-details/state-details.component';
 import { ContactInfoComponent } from './Components/contact-info/contact-info.component';
 import { UtilService } from './services/util.service';
-import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { LocationStrategy, Location, PathLocationStrategy, HashLocationStrategy } from '@angular/common';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { GalleryComponent } from './Components/gallery/gallery.component';
 
@@ -33,7 +33,11 @@ import { GalleryComponent } from './Components/gallery/gallery.component';
     AppRoutingModule,
     NgbModule
   ],
-  providers: [CommonHttpServiceService, UtilService, {provide: LocationStrategy, useClass: HashLocationStrategy}],
+  providers: [
+    CommonHttpServiceService, 
+    UtilService, 
+    Location, 
+    {provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent],  
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
